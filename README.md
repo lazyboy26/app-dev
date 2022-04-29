@@ -1,3 +1,3 @@
-Spp Dev Testing Olshop
+App Dev Testing Olshop
 
 Progress 10%
