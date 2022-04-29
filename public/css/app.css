@@ -4347,6 +4347,9 @@ textarea.form-control.is-invalid {
 .text-center {
   text-align: center;
 }
+.text-right {
+  text-align: right;
+}
 .text-justify {
   text-align: justify;
 }

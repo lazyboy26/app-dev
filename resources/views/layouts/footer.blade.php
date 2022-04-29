@@ -81,11 +81,10 @@
             <div class="mb-6">
                 <h5 class="uppercase font-bold mb-2.5">Bantuan</h5>
                 <ul>
-                    <li><a href="">Link 1</a></li>
-                    <li><a href="">Link 2</a></li>
-                    <li><a href="">Link 3</a></li>
-                    <li><a href="">Link 4</a></li>
-                    <li><a href="">Link 5</a></li>
+                    <li><a href="/about">Tentang Kami</a></li>
+                    <li><a href="/shop">Belanja</a></li>
+                    <li><a href="">Masuk</a></li>
+                    <li><a href="">Daftar</a></li>
                 </ul>
             </div>
             <div class="mb-6">
