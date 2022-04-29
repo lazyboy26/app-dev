@@ -151,7 +151,7 @@
                 </div>
                 <div class="flex">
                     <div class="p-2 block group">
-                        <img class="rounded group-hover:scale-105  group-hover:brightness-100 brightness-50 transition duration-500 group-hover:cursor-pointer" src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" alt="">
+                        <img class="rounded group-hover:scale-105  group-hover:brightness-100 brightness-50 transition duration-500 group-hover:cursor-pointer" src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp" alt="">
                     </div>
 
                 </div>
