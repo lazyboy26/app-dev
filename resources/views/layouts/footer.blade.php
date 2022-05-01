@@ -68,13 +68,13 @@
         <div class="grid lg:grid-cols-4 md:grid-cols-2">
             <div class="mb-6 text-justify">
                 <a class="text-white px-1 font-semibold" href="/">
-                    <div class="flex">Shop
+                    <div class="flex justify-center sm:justify-start">Shop
                         <div class="text-rose-600">
                             Now
                         </div>
                     </div>
                 </a>
-                <p>
+                <p class="text-center sm:text-left">
                     Toserba berbasis online terbesar dengan ratusan outlet yang tersebar di seluruh penjuru Indonesia.
                 </p>
             </div>
@@ -90,7 +90,7 @@
             <div class="mb-6">
                 <h5 class="uppercase font-bold mb-2.5">Pembayaran</h5>
                 <div class="gambar-pembayaran w-1/2 mx-auto">
-                    <img src="/img/logo-pembayaran.png" alt="">
+                    <img src="img/logo-pembayaran.png" alt="Pembayaran">
                 </div>
             </div>
             <div class="mb-6">

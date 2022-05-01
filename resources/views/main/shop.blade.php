@@ -4,7 +4,7 @@
     <div class="container mx-auto mt-5 mb-10">
         {{-- Heading shop --}}
         <div class="heading-shop flex justify-between">
-            <h1 class="text-4xl mb-3 w-max">Semua Produk
+            <h1 class="text-4xl mb-3 w-max font-semibold">Semua Produk
                 <div class="border-b-2 h-1 bg-rose-500"></div>
             </h1>
 
@@ -15,28 +15,7 @@
                     <div>
                         <div class="dropstart relative">
                             <button
-                                class="
-                        dropdown-toggle
-                        px-6
-                        py-2.5
-                        bg-rose-600
-                        text-white
-                        font-medium
-                        text-xs
-                        leading-tight
-                        uppercase
-                        rounded
-                        shadow-md
-                        hover:bg-rose-700 hover:shadow-lg
-                        focus:bg-rose-700 focus:shadow-lg focus:outline-none focus:ring-0
-                        active:bg-rose-800 active:shadow-lg active:text-white
-                        transition
-                        duration-150
-                        ease-in-out
-                        flex
-                        items-center
-                        whitespace-nowrap
-                      "
+                                class="dropdown-toggle px-6 py-2.5 bg-rose-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-rose-700 hover:shadow-lg focus:bg-rose-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-rose-800 active:shadow-lg active:text-white transition duration-150 ease-in-out flex items-center whitespace-nowrap"
                                 type="button" id="dropdownMenuButton1s" data-bs-toggle="dropdown" aria-expanded="false">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-left"
                                     class="w-1.5 mr-2" role="img" xmlns="http://www.w3.org/2000/svg"
@@ -144,37 +123,33 @@
         {{-- End Heading Shop --}}
 
         {{-- Cards --}}
-        <div class="cards-row grid grid-cols-3 gap-4">
-            @for ($i = 1; $i <= 9; $i++)
-                <div class="flex justify-center">
-                    <div class="flex flex-col md:flex-row md:max-w-xl bg-white shadow-lg">
-                        <a href="" data-bs-toggle="modal" data-bs-target="#modalImg"
-                            class="flex w-full group overflow-hidden rounded-tl-lg rounded-bl-lg">
-                            <img class="w-full group-hover:scale-110 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg group-hover:brightness-100 brightness-50 transition duration-500"
-                                src="https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.jpg" alt="" />
+        <div class="cards-row gap-4 grid grid-cols-2 md:grid-cols-6 px-5 md:px-0">
+            @for ($i = 1; $i <= 18; $i++)
+                <div class="relative cards-product bg-white rounded-lg p-5 border-rose-500 border-4 w-full">
+                    <i class="absolute top-0 -left-0.5 bg-rose-500 w-min p-1 px-2 rounded-br font-semibold text-white">
+                        Promo
+                    </i>
+                    <div class="img rounded-t mt-7">
+                        <a href="">
+                            <img src="https://id-test-11.slatic.net/p/f01403bdf57a55e132ee1c59765ebfc4.jpg_720x720q80.jpg_.webp"
+                                alt="">
                         </a>
-                        <div class="p-6 flex flex-col justify-start relative">
-                            <h5 class="text-gray-900 hover:text-gray-500 text-xl font-bold mb-2">
-                                <a href="">
-                                    Produk {{ $i }}
-                                </a>
-                            </h5>
-                            <div
-                                class="promo-tag block absolute right-0 top-0 bg-rose-600 p-1 px-2 text-white rounded-bl-lg rounded-tr-lg font-bold">
-                                Promo</div>
-
-                            <p class="text-gray-700 text-base mb-4">
-                                This is a wider card with supporting text below as a natural lead-in to additional content.
-                                This content
-                                is a little bit longer.
-                            </p>
-                            <div class="flex space-x-2 justify-center">
-                                <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light"
-                                    class="w-full inline-block px-6 py-2.5 bg-rose-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-rose-700 hover:shadow-lg focus:bg-rose-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-rose-800 active:shadow-lg transition duration-150 ease-in-out"
-                                    data-bs-toggle="modal" data-bs-target="#ModalProduk">Detail</button>
-                            </div>
-                        </div>
                     </div>
+                    <div class="desc text-justify my-2">
+                        <a href="#" class="product-name text-xl font-bold">
+                            Baju Distro Pria Hitam
+                        </a>
+                        <p class="text-sm my-2">
+                            <s class="text-rose-300">Rp.100.000</s>
+                            <span class="text-rose-500">Rp.50.000 </span>
+                        </p>
+                    </div>
+                    <a href="#" class="w-full text-white">
+                        <p type="button" data-mdb-ripple="true" data-mdb-ripple-color="light"
+                            class="inline-block px-6 py-2.5 bg-rose-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-rose-700 hover:shadow-lg focus:bg-rose-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-rose-800 active:shadow-lg transition duration-150 ease-in-out w-full text-center">
+                            Detail
+                        </p>
+                    </a>
                 </div>
             @endfor
         </div>
