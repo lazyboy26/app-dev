@@ -35,6 +35,7 @@
             <div class="border-b-2 h-1 bg-rose-500"></div>
         </h1>
         <div class="cards-row gap-4 grid grid-cols-2 md:grid-cols-6">
+            {{-- Data Consume Dari Database --}}
             @for ($i = 1; $i <= 12; $i++)
                 <div class="relative cards-product bg-white rounded-lg p-5 border-rose-500 border-4 w-full">
                     <i class="absolute top-0 -left-0.5 bg-rose-500 w-min p-1 px-2 rounded-br font-semibold text-white">
@@ -43,7 +44,7 @@
                     <div class="img rounded-t mt-7">
                         <a href="">
                             <img src="https://id-test-11.slatic.net/p/f01403bdf57a55e132ee1c59765ebfc4.jpg_720x720q80.jpg_.webp"
-                                alt="">
+                                alt="Image Product">
                         </a>
                     </div>
                     <div class="desc text-justify my-2">
@@ -55,7 +56,7 @@
                             <span class="text-rose-500">Rp.50.000 </span>
                         </p>
                     </div>
-                    <a href="#" class="w-full text-white">
+                    <a href="/singlePage" class="w-full text-white">
                         <p type="button" data-mdb-ripple="true" data-mdb-ripple-color="light"
                             class="inline-block px-6 py-2.5 bg-rose-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-rose-700 hover:shadow-lg focus:bg-rose-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-rose-800 active:shadow-lg transition duration-150 ease-in-out w-full text-center">
                             Detail

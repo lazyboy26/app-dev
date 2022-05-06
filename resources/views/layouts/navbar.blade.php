@@ -14,7 +14,7 @@
             </button>
             <div class="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent1">
                 <a class="text-xl text-white pr-2 font-semibold" href="/">
-                    <div class="flex">Shop
+                    <div class="flex my-2 ml-2 sm:my-0 sm:ml-0">Shop
                         <div class="text-rose-600">
                             Now
                         </div>
@@ -40,7 +40,7 @@
             <!-- Collapsible wrapper -->
 
             <!-- Right elements -->
-            <div class="flex items-center relative">
+            <div class="flex items-center relative ml-2.5 sm:ml-0">
                 <!-- Icon -->
                 <a class="text-white opacity-60 hover:opacity-80 focus:opacity-80 mr-4" href="#">
                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="shopping-cart"
@@ -79,7 +79,7 @@
                     </ul>
                 </div>
                 <div class="dropdown relative">
-                    <a class="dropdown-toggle flex items-center hidden-arrow" href="#" id="dropdownMenuButton2"
+                    {{-- <a class="dropdown-toggle flex items-center hidden-arrow" href="#" id="dropdownMenuButton2"
                         role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <img src="https://mdbootstrap.com/img/new/avatars/2.jpg" class="rounded-full"
                             style="height: 25px; width: 25px" alt="" loading="lazy" />
@@ -98,7 +98,9 @@
                             <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
                                 href="#">Something else here</a>
                         </li>
-                    </ul>
+                    </ul> --}}
+
+                    <a href="login" class="nav-link border-2 p-2 border-gray-500 text-gray-500 {{ ($title === "Login Page")? 'text-white border-gray-100 border-2' : '' }}">Login</a>
                 </div>
             </div>
             <!-- Right elements -->

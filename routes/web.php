@@ -34,3 +34,17 @@ Route::get('/about', function () {
     ]
     );
 });
+Route::get('/singlePage', function () {
+    return view('main/singlePage',
+    [
+        'title' => 'Detail produk'
+    ]
+    );
+});
+Route::get('/login', function () {
+    return view('main/loginPage',
+    [
+        'title' => 'Login Page'
+    ]
+    );
+});
